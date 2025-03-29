@@ -1,0 +1,54 @@
+/* styles.module.css */
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .texto1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button1 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .button1:hover {
+    background-color: #9ac2ec;
+  }
+  
+  .cadastro, .criacao, .categoria, .listagem {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .cadastro:hover, .criacao:hover, .categoria:hover, .listagem:hover {
+    color: #0056b3;
+  }
+  
